@@ -10,50 +10,46 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="375.0" prefWidth="176.0">
-      <children>
-            <Button fx:id="LeftButton" layoutX="241.0" layoutY="311.0" mnemonicParsing="false" onAction="#pressLeftButton" opacity="0.1" prefHeight="42.0" prefWidth="42.0" text="LEFT" />
-            <Button fx:id="ForwardButton" layoutX="281.0" layoutY="269.0" mnemonicParsing="false" onAction="#pressForwardButton" opacity="0.1" prefHeight="42.0" prefWidth="42.0" text="FORWARD" />
-            <Button fx:id="RightButton" layoutX="325.0" layoutY="311.0" mnemonicParsing="false" onAction="#pressRightButon" opacity="0.1" prefHeight="42.0" prefWidth="42.0" text="RIGHT" />
-            <ImageView fitHeight="34.0" fitWidth="31.0" layoutX="247.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Desktop/kisspng-computer-icons-scalable-vector-graphics-arrow-clip-arrow-png-5aae60de8ae406.9967051815213775025689.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="331.0" layoutY="317.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Desktop/kisspng-computer-icons-scalable-vector-graphics-arrow-clip-arrow-png-5aae60de8ae406.9967051815213775025689.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="287.0" layoutY="275.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
-               <image>
-                  <Image url="@../Desktop/kisspng-computer-icons-scalable-vector-graphics-arrow-clip-arrow-png-5aae60de8ae406.9967051815213775025689.png" />
-               </image>
-            </ImageView>
-            <Button fx:id="PutDownButton" layoutX="569.0" layoutY="331.0" mnemonicParsing="false" onAction="#pressButton" opacity="0.1" prefHeight="25.0" prefWidth="55.0" text="Put-Down" />
-            <Button fx:id="PickUpButton" layoutX="432.0" layoutY="331.0" mnemonicParsing="false" onAction="#pressPickUpButton" opacity="0.1" prefHeight="25.0" prefWidth="55.0" text="Pick-Up" />
-            <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="576.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" rotate="-180.0">
-               <image>
-                  <Image url="@../Desktop/img_201860.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="439.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Desktop/img_201860.png" />
-               </image>
-            </ImageView>
-            <ImageView fx:id="imageView" fitHeight="245.0" fitWidth="612.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
-            <TextField fx:id="MessageField" layoutX="46.0" layoutY="331.0" onAction="#updateMessageField" prefHeight="25.0" prefWidth="143.0" />
-            <ImageView fx:id="itemView" fitHeight="42.0" fitWidth="63.0" layoutX="497.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" />
-            <ChoiceBox fx:id="ItemsCarried" layoutX="454.0" layoutY="278.0" prefWidth="150.0" />
-            <MenuButton layoutX="19.0" layoutY="23.0" mnemonicParsing="false" text="File">
-              <items>
-                <MenuItem fx:id="ICWorld" mnemonicParsing="false" onAction="#doStartNewWorld" text="New World" />
-              </items>
-            </MenuButton>
-      </children>
-    </AnchorPane>
-   </children>
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="375.0" prefWidth="176.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+      <Button fx:id="LeftButton" layoutX="241.0" layoutY="311.0" mnemonicParsing="false" onAction="#pressLeftButton" opacity="0.1" prefHeight="42.0" prefWidth="42.0" text="LEFT" />
+      <Button fx:id="ForwardButton" layoutX="281.0" layoutY="269.0" mnemonicParsing="false" onAction="#pressForwardButton" opacity="0.1" prefHeight="42.0" prefWidth="42.0" text="FORWARD" />
+      <Button fx:id="RightButton" layoutX="325.0" layoutY="311.0" mnemonicParsing="false" onAction="#pressRightButon" opacity="0.1" prefHeight="42.0" prefWidth="42.0" text="RIGHT" />
+      <ImageView fitHeight="34.0" fitWidth="31.0" layoutX="247.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Desktop/kisspng-computer-icons-scalable-vector-graphics-arrow-clip-arrow-png-5aae60de8ae406.9967051815213775025689.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="331.0" layoutY="317.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Desktop/kisspng-computer-icons-scalable-vector-graphics-arrow-clip-arrow-png-5aae60de8ae406.9967051815213775025689.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="287.0" layoutY="275.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../Desktop/kisspng-computer-icons-scalable-vector-graphics-arrow-clip-arrow-png-5aae60de8ae406.9967051815213775025689.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="PutDownButton" layoutX="569.0" layoutY="331.0" mnemonicParsing="false" onAction="#pressButton" opacity="0.1" prefHeight="25.0" prefWidth="55.0" text="Put-Down" />
+      <Button fx:id="PickUpButton" layoutX="432.0" layoutY="331.0" mnemonicParsing="false" onAction="#pressPickUpButton" opacity="0.1" prefHeight="25.0" prefWidth="55.0" text="Pick-Up" />
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="576.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" rotate="-180.0">
+         <image>
+            <Image url="@../Desktop/img_201860.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="439.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Desktop/img_201860.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView" fitHeight="245.0" fitWidth="612.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="MessageField" layoutX="46.0" layoutY="331.0" onAction="#updateMessageField" prefHeight="25.0" prefWidth="143.0" />
+      <ImageView fx:id="itemView" fitHeight="42.0" fitWidth="63.0" layoutX="497.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" />
+      <ChoiceBox fx:id="ItemsCarried" layoutX="454.0" layoutY="278.0" prefWidth="150.0" />
+      <MenuButton layoutX="19.0" layoutY="23.0" mnemonicParsing="false" text="File">
+        <items>
+          <MenuItem fx:id="ICWorld" mnemonicParsing="false" onAction="#doStartNewWorld" text="New World" />
+        </items>
+      </MenuButton>
+</children>
 </AnchorPane>
