@@ -52,11 +52,11 @@
                </image>
             </ImageView>
             <ImageView fx:id="imageView" fitHeight="245.0" fitWidth="612.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
-            <TextField fx:id="MessageField" layoutX="453.0" layoutY="290.0" onAction="#updateMessageField" prefHeight="25.0" prefWidth="143.0" />
+            <TextField fx:id="MessageField" layoutX="46.0" layoutY="331.0" onAction="#updateMessageField" prefHeight="25.0" prefWidth="143.0" />
             <ImageView fx:id="itemView" fitHeight="42.0" fitWidth="63.0" layoutX="497.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" />
-          <MenuBar layoutX="-174.0" layoutY="32.0">
+          <MenuBar layoutX="26.0" layoutY="14.0">
                <menus>
-                  <Menu mnemonicParsing="false" text="Unspecified Menu">
+                  <Menu mnemonicParsing="false" text="New World">
                     <items>
                       <MenuItem fx:id="ICWorld" mnemonicParsing="false" onAction="#doStartNewWorld" text="NewWorld" />
                     </items>
